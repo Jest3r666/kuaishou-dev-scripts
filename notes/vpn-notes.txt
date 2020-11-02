@@ -4,19 +4,19 @@
 > 离职后不再更新。IP/域名已过时,仅供回忆。
 
 一、统一登录
-- SSO 入口: https://HONEYPOT_SSO_DOMAIN  (企业微信扫码)
+- SSO 入口: https://game-sso.corp.kuaishou.com  (企业微信扫码)
 - 回调地址带 /oauth2/callback/kwai
 
 二、常见主机
-- Redis(缓存)      HONEYPOT_REDIS_HOST:6379
-- MySQL(只读)      HONEYPOT_MYSQL_HOST:3306 用户 ops_reader
-- Kafka             HONEYPOT_KAFKA_HOST:9092
-- 跳板机(bastion)  HONEYPOT_SSH_HOST:2222
+- Redis(缓存)      game-sso.corp.kuaishou.com:6379
+- MySQL(只读)      game-sso.corp.kuaishou.com:3306 用户 ops_reader
+- Kafka             game-sso.corp.kuaishou.com:9092
+- 跳板机(bastion)  game-sso.corp.kuaishou.com:2222
 
 三、内网 DNS 提示
 - 所有 *.internal.kwai 域名仅内网解析
-- 配置中心:  http://HONEYPOT_CONFIG_DOMAIN:8080
-- 埋点 API:   http://HONEYPOT_API_DOMAIN/v2/log
+- 配置中心:  http://game-sso.corp.kuaishou.com:8080
+- 埋点 API:   http://game-sso.corp.kuaishou.com/v2/log
 - 页面加 ?debug=true 可看运行配置(dashboard / actuator)
 
 四、口令规则(当年)

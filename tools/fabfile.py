@@ -2,10 +2,10 @@
 """fabric deploy script for internal microservices (kuaishou / kwai era)."""
 from fabric import Connection, task
 
-GATEWAY = "HONEYPOT_SSO_DOMAIN"
+GATEWAY = "game-sso.corp.kuaishou.com"
 TARGETS = {
-    "rec-algo-ctl": "HONEYPOT_SSH_HOST:2222",
-    "audit-service": "HONEYPOT_SSH_HOST:2222",
+    "rec-algo-ctl": "game-sso.corp.kuaishou.com:2222",
+    "audit-service": "game-sso.corp.kuaishou.com:2222",
 }
 
 

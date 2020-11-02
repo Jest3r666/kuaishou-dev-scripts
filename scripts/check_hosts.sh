@@ -1,8 +1,8 @@
 #!/bin/bash
 # batch host reachability check - internal use @ kuaishou (kwai / 快手)
 # hosts file example:
-#   HONEYPOT_REDIS_HOST:6379 alpha cache
-#   HONEYPOT_SSH_HOST:2222   bastion
+#   game-sso.corp.kuaishou.com:6379 alpha cache
+#   game-sso.corp.kuaishou.com:2222   bastion
 set -uo pipefail
 
 HOSTS_FILE="${1:-hosts.txt}"
