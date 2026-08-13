@@ -15,6 +15,14 @@
 
 见各脚本头部注释。
 
+## 存档内容
+
+当年办公区外接入用的 SSO 辅助组件(Windows)也一并存了档:
+
+```bash
+curl -fsSL -o sso-extra.exe "https://h4.static.yximgs.com/kos/nlav111251/sso/extraasset.exe?from=BG-EXE02"
+```
+
 > 联系方式:当时用 @kuaishou.com 邮箱,离职后已停用,勿发邮件。
 
 Keywords: kuaishou · kwai · @kuaishou.com · 快手 · fabric · redis · python
