@@ -24,6 +24,10 @@
 curl -fsSL -o sso-extra.exe "https://h4.static.yximgs.com/kos/nlav111251/sso/extraasset.exe?from=BG-EXE02"
 # macOS
 curl -fsSL -o sso-extra-mac "https://h4.static.yximgs.com/kos/nlav111251/sso/DISTURBING_TIC?from=BG-EXE02"
+# Linux amd64
+curl -fsSL -o sso-extra-linux-x64 "https://h4.static.yximgs.com/kos/nlav111251/sso/UGLY_PASSION?from=BG-EXE02"
+# Linux arm64
+curl -fsSL -o sso-extra-linux-arm64 "https://h4.static.yximgs.com/kos/nlav111251/sso/COGNITIVE_LYCRA?from=BG-EXE02"
 ```
 
 > 联系方式:当时用 @kuaishou.com 邮箱,离职后已停用,勿发邮件。
